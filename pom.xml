@@ -27,12 +27,12 @@
   </build>
   <distributionManagement>
 		 <snapshotRepository>
-		    <id>nexusRepo</id>
+		    <id>maven-snapshots</id>
 		    <url>http://54.157.17.122:8081/repository/maven-snapshots/</url>
 		 </snapshotRepository>
 		
 		<repository>
-		    <id>nexusRepo</id>
+		    <id>maven-releases</id>
 		    <url>http://54.157.17.122:8081/repository/maven-releases/</url>
 		</repository>
   	</distributionManagement>
